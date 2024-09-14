@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "express-serverless-starter"
+resolve_s3 = true
+s3_prefix = "express-serverless-starter"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+confirm_changeset = true  
